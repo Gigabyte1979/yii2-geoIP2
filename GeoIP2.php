@@ -4,12 +4,12 @@ namespace overals\GeoIP2;
 use MaxMind\Db\Reader;
 use Yii;
 use Exception;
-use yii\base\Object;
+use yii\base\BaseObject;
 
 /**
  * Class GeoIP2
  */
-class GeoIP2 extends Object {
+class GeoIP2 extends BaseObject {
     /**
      * @var string
      */
